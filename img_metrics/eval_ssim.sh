@@ -1,0 +1,3 @@
+python ssim_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_edge_best_2 -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./ssim_edge.txt
+python ssim_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_ip2p_best_2 -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./ssim_ip2p.txt
+python ssim_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_seg_best -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./ssim_seg.txt

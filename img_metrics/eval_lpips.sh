@@ -1,0 +1,3 @@
+python lpips_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_edge_best_2 -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./lpips_edge.txt
+python lpips_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_ip2p_best_2 -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./lpips_ip2p.txt
+python lpips_2dirs.py -d0 /mnt/Data/musa7216/10k/generations_seg_best -d1 /mnt/Data/musa7216/10k/train_image_resized -o ./lpips_seg.txt
